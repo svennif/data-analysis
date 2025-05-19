@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 # Load and parse the HTML file
 html_file = './BPD.html'
 
+print(test)
+
 with open(html_file, 'r', encoding='utf-8') as file:
     soup = BeautifulSoup(file, 'html.parser')
 
